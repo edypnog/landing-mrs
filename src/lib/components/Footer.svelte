@@ -3,7 +3,7 @@
         { name: "Início", href: "/" },
         { name: "Serviços", href: "/#services" },
         { name: "Instagram", href: "" },
-        { name: "Contato", href: "/#contact" }
+        { name: "Facebook", href: "" }
     ];
 
     const contacts = [
@@ -27,7 +27,9 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             <!-- Logo -->
             <div class="space-y-4">
-                <h2 class="text-3xl font-extrabold">LOGO</h2>
+                <a href="/" class="text-2xl font-bold" style="color: #1e1e1e">
+                    XP<span class="text-[#ffffff] italic">T</span>O
+                </a>
                 <p class="text-sm">Desde 2010 criando soluções visuais</p>
             </div>
 

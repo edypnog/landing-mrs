@@ -2,47 +2,68 @@
     import ServiceCard from '$lib/components/ServiceCard.svelte';
     
     const services = [
-        {
-            title: "Impressão Digital",
-            image: "/images/digital-printing.jpg",
-            features: [
-                "Cartões de visita premium",
-                "Flyers e folhetos",
-                "Convites personalizados",
-                "Adesivos de alta qualidade"
-            ]
-        },
-        {
-            title: "Grande Formato",
-            image: "/images/large-format.jpg",
-            features: [
-                "Banners de PVC",
-                "Adesivagem veicular",
-                "Backdrops para eventos",
-                "Letras caixa 3D"
-            ]
-        },
-        {
-            title: "Grande Formato",
-            image: "/images/large-format.jpg",
-            features: [
-                "Banners de PVC",
-                "Adesivagem veicular",
-                "Backdrops para eventos",
-                "Letras caixa 3D"
-            ]
-        },
-        {
-            title: "Grande Formato",
-            image: "/images/large-format.jpg",
-            features: [
-                "Banners de PVC",
-                "Adesivagem veicular",
-                "Backdrops para eventos",
-                "Letras caixa 3D"
-            ]
-        },
-    ];
+    {
+        title: "Impressão Digital",
+        image: "/images/digital-printing.jpg",
+        features: [
+            "Cartões de visita premium",
+            "Flyers e folhetos",
+            "Convites personalizados",
+            "Adesivos de alta qualidade"
+        ]
+    },
+    {
+        title: "Personalização de Brindes",
+        image: "/images/custom-gifts.jpg",
+        features: [
+            "Canecas e copos personalizados",
+            "Chaveiros promocionais",
+            "Camisetas estampadas",
+            "Mousepads exclusivos"
+        ]
+    },
+    {
+        title: "Acabamento e Encadernação",
+        image: "/images/finishing-binding.jpg",
+        features: [
+            "Laminação fosca e brilhante",
+            "Encadernação wire-o e espiral",
+            "Refile e vinco de alta precisão",
+            "Corte especial para papéis"
+        ]
+    },
+    {
+        title: "Impressão Offset",
+        image: "/images/offset-printing.jpg",
+        features: [
+            "Produção de grandes quantidades",
+            "Revistas e jornais",
+            "Pastas e catálogos",
+            "Etiquetas e rótulos adesivos"
+        ]
+    },
+    {
+        title: "Sinalização e Comunicação Visual",
+        image: "/images/signage.jpg",
+        features: [
+            "Placas de sinalização interna e externa",
+            "Totens e letreiros iluminados",
+            "Paineis informativos",
+            "Displays para lojas"
+        ]
+    },
+    {
+        title: "Embalagens Personalizadas",
+        image: "/images/custom-packaging.jpg",
+        features: [
+            "Caixas personalizadas para produtos",
+            "Sacos de papel com logo",
+            "Etiquetas adesivas para embalagens",
+            "Rótulos resistentes à umidade"
+        ]
+    },
+];
+
 </script>
 
 <section id="services" class="bg-[#111111] py-20 px-4">

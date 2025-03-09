@@ -22,3 +22,18 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #ffd700;
 }
+
+/* Para adicionar efeito de contorno */
+::selection {
+    background: #1e1e1e;
+    color: #ffe400;
+    text-shadow: 
+    0 0 1px #ffe400,
+    0 0 3px rgba(255, 228, 0, 0.2);
+}
+
+/* Para seleção com gradiente */
+::-moz-selection {
+    background: linear-gradient(45deg, #1e1e1e, #2a2a2a);
+    color: #ffe400;
+}

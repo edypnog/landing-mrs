@@ -52,45 +52,48 @@
     </div>
 
     <!-- Botões de navegação -->
-    <button 
-    class="absolute left-4 top-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-[#1e1e1e]/80 backdrop-blur-sm border-2 border-[#ffe400]/30 hover:border-[#ffe400]/60 text-[#ffe400] shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 group"
-    on:click={prevSlide}
-    aria-label="Slide anterior"
->
-    <svg 
-        class="w-6 h-6 transform -scale-x-100 group-hover:-translate-x-1 transition-transform"
-        viewBox="0 0 24 24" 
-        fill="none" 
-        stroke="currentColor" 
-        stroke-width="2"
-    >
-        <path 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
-            d="M13 5l7 7-7 7M5 5l7 7-7 7" 
-        />
-    </svg>
-</button>
+    <!-- Botões de navegação (visíveis apenas em desktop) -->
+    <div class="hidden md:block">
+        <button 
+            class="absolute left-4 top-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-[#1e1e1e]/80 backdrop-blur-sm border-2 border-[#ffe400]/30 hover:border-[#ffe400]/60 text-[#ffe400] shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 group"
+            on:click={prevSlide}
+            aria-label="Slide anterior"
+        >
+            <svg 
+                class="w-6 h-6 transform -scale-x-100 group-hover:-translate-x-1 transition-transform"
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                stroke-width="2"
+            >
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    d="M13 5l7 7-7 7M5 5l7 7-7 7" 
+                />
+            </svg>
+        </button>
 
-<button 
-    class="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-[#1e1e1e]/80 backdrop-blur-sm border-2 border-[#ffe400]/30 hover:border-[#ffe400]/60 text-[#ffe400] shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 group"
-    on:click={nextSlide}
-    aria-label="Próximo slide"
->
-    <svg 
-        class="w-6 h-6 group-hover:translate-x-1 transition-transform"
-        viewBox="0 0 24 24" 
-        fill="none" 
-        stroke="currentColor" 
-        stroke-width="2"
-    >
-        <path 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
-            d="M13 5l7 7-7 7M5 5l7 7-7 7" 
-        />
-    </svg>
-</button>
+        <button 
+            class="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-[#1e1e1e]/80 backdrop-blur-sm border-2 border-[#ffe400]/30 hover:border-[#ffe400]/60 text-[#ffe400] shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 group"
+            on:click={nextSlide}
+            aria-label="Próximo slide"
+        >
+            <svg 
+                class="w-6 h-6 group-hover:translate-x-1 transition-transform"
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                stroke-width="2"
+            >
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    d="M13 5l7 7-7 7M5 5l7 7-7 7" 
+                />
+            </svg>
+        </button>
+    </div>
 
     <!-- Indicadores -->
     <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">

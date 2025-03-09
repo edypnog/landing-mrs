@@ -104,7 +104,7 @@
                         
                         <button 
                             type="submit" 
-                            class="w-full rounded-lg bg-[#1e1e1e] px-6 py-3 font-semibold text-[#ffe400] transition hover:bg-yellow-300"
+                            class="w-full rounded-lg bg-[#1e1e1e] px-6 py-3 font-semibold text-[#ffda05] transition hover:bg-[#070707] cursor-pointer"
                         >
                             Enviar Mensagem
                         </button>
