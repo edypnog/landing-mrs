@@ -58,6 +58,7 @@
                 <!-- Redes Sociais -->
                 <div class="flex gap-4">
                     {#each socialLinks as social}
+                        <!-- svelte-ignore a11y_consider_explicit_label -->
                         <a 
                             href={social.link} 
                             class="rounded-full bg-[#ffe400] p-3 text-[#1e1e1e] transition hover:scale-110"
